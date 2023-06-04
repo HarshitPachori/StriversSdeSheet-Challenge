@@ -81,8 +81,8 @@ public class SetMatrixZero {
             }
         }
         // mark row and col from [1,1] to [n-1,m-1]
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < m; j++) {
+        for (int i = 1; i < n; i++) {
+            for (int j = 1; j < m; j++) {
                 if (matrix.get(i).get(j) != 0) {
                     if (matrix.get(i).get(0) == 0 || matrix.get(0).get(j) == 0) {
                         matrix.get(i).set(j, 0);

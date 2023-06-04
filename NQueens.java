@@ -46,7 +46,8 @@ public class NQueens {
                 }
                 solve(0, ans, board, leftRow, lowDiag, upDiag, n);
                 return ans;
-        
             }
 
+            // TC -> O(n! * n)
+            // SC -> O(n)
 }

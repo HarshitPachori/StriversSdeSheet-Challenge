@@ -19,4 +19,7 @@ public class SearchInA2DMatrix {
         }
         return false;
     }
+
+    // TC -> O(log(m*n))
+    // SC -> O(1) 
 }

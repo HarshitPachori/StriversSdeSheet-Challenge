@@ -23,7 +23,7 @@ public class RotateMatrix {
         // Write your code here.
         // transposing
         for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n; j++) {
+            for (int j = i; j < n; j++) {
                 int temp = mat.get(i).get(j);
                 mat.get(i).set(j, mat.get(j).get(i));
                 mat.get(mat.get(j).set(i, temp));
